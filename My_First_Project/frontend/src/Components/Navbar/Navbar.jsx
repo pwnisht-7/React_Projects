@@ -9,27 +9,27 @@ import Button from "../Button/Button";
 const Navbar = () => {
   return (
     <>
-      <div className="py-4 px-40 flex items-center justify-center gap-24 run dev w-full h-20">
-        <div>
+      <div className="py-4 px-28 flex items-center justify-between gap-36 w-full h-20">
+        <div className="flex items-center justify-center">
           <Link to=""><img src={Logo} alt="logo" /></Link>
         </div>
-        <div className="">
-          <ul className="flex gap-5">
+        <div className="flex items-center justify-center">
+          <ul className="flex gap-7">
             <li>
-              <Link to="about">About Us</Link>
+              <Link to="about" className="text-md">About Us</Link>
             </li>
             <li>
-              <Link to="menu">Our Menu</Link>
+              <Link to="menu" className="text-md">Our Menu</Link>
             </li>
             <li>
-              <Link to="service">Our Services</Link>
+              <Link to="service" className="text-md">Our Services</Link>
             </li>
             <li>
-              <Link to="advice">Allergy Advice</Link>
+              <Link to="advice" className="text-md">Allergy Advice</Link>
             </li>
           </ul>
         </div>
-        <div className="w-80 flex items-center gap-10">
+        <div className="flex items-center gap-10">
             <div>
                 <ul className="flex gap-3">
                     <li className="h-8 w-8 bg-slate-400 flex items-center justify-center hover:bg-orange-600 rounded-full">
