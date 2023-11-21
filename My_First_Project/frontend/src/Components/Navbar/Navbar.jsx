@@ -9,7 +9,7 @@ import Button from "../Button/Button";
 const Navbar = () => {
   return (
     <>
-      <div className="py-4 px-28 flex items-center justify-between gap-36 w-full h-20">
+      <div className="py-4 px-28 flex items-center justify-between gap-36 w-full h-20 fixed top-0 left-0 bg-white shadow-sm shadow-slate-300 z-10">
         <div className="flex items-center justify-center">
           <Link to=""><img src={Logo} alt="logo" /></Link>
         </div>
