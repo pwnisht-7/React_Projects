@@ -1,16 +1,16 @@
 // import React from 'react'
 
 const Button = (props) => {
-    const {onClick, disabled, text,className} = props;
+    const {onClick, disabled, text,className ,icon} = props;
   return (
     <button
     onClick={onClick}
     className={className}
     disabled={disabled}
     >
-     {text} 
+     {text} {icon}
     </button>
   )
 }
 
-export default Button
+export default Button;

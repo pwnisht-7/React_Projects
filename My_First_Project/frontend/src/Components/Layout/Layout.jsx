@@ -6,7 +6,9 @@ import Footer from "../Footer/Footer";
 const Layout = () => {
   return (
     <>
-      <Navbar />
+      <Navbar
+      className="w-full bg-slate-300" 
+      />
       <Outlet />
       <Footer />
     </>
