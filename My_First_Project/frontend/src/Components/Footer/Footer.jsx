@@ -10,7 +10,7 @@ import Logo from "./Logo.png";
 const Footer = () => {
   return (
     <>
-      <div className=" w-[1440px] flex flex-col gap-10 px-28 py-16 text-slate-700 ">
+      <div className=" w-[1440px] flex flex-col gap-10 px-28 py-10 text-slate-700 ">
         <div className="flex gap-28 items-start justify-between">
         <div className="w-[408px] flex flex-col gap-4">
           <div>
