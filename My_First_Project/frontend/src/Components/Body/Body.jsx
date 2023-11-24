@@ -1,21 +1,12 @@
 // import React from 'react'
 import PNG from "./Group 1.png";
 import MOMO from "./shiv-singh-Vj-J5xNjnxA-unsplash 1.png";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowRightLong, FaClock, FaPhoneAlt, FaChevronLeft, FaTiktok, FaInstagram, FaFacebook, FaLocationDot, FaChevronRight, FaRegCirclePlay   } from "react-icons/fa6";
 import Button from "../Button/Button";
 import PERSON from "./pngwing 1.png";
-import { FaPhoneAlt } from "react-icons/fa";
 import FRY from "./Fry Momo.png";
-import { FaRegCirclePlay } from "react-icons/fa6";
 import CHIK from "./C Momo.png";
-import { FaChevronLeft } from "react-icons/fa";
-import { FaChevronRight } from "react-icons/fa";
-import { FaClock } from "react-icons/fa";
 import food from "./Quality.png";
-import { FaLocationDot } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
 import catering from "./Chef.png";
 import RPerson from "./Rectangle 8.png";
 import party from "./party.png";
