@@ -1,7 +1,7 @@
 // import React from 'react'
 import PNG from "./Group 1.png";
 import MOMO from "./shiv-singh-Vj-J5xNjnxA-unsplash 1.png";
-import { FaArrowRightLong, FaClock, FaPhoneAlt, FaChevronLeft, FaTiktok, FaInstagram, FaFacebook, FaLocationDot, FaChevronRight, FaRegCirclePlay   } from "react-icons/fa6";
+import { FaArrowRightLong, FaClock, FaPhone, FaChevronLeft, FaTiktok, FaInstagram, FaFacebook, FaLocationDot, FaChevronRight, FaRegCirclePlay   } from "react-icons/fa6";
 import Button from "../Button/Button";
 import PERSON from "./pngwing 1.png";
 import FRY from "./Fry Momo.png";
@@ -412,7 +412,7 @@ const Body = () => {
               </div>
               <div className="gap-6 flex flex-col">
                 <h1 className="flex gap-2 font-bold text-2xl relative">
-                  <FaPhoneAlt />
+                  <FaPhone />
                   <span className="absolute -top-1 left-8">Our Contact</span>
                 </h1>
                 <div className="flex items-start gap-14">
