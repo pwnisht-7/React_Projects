@@ -29,7 +29,7 @@ const Services = () => {
         </div>
         <div className="w-[498px] h-[499px] relative">
           <img src={Hero} alt="HeroImg" />
-          <div className="flex flex-wrap absolute top-[520px] left-[1156px] gap-4 h-[192px] w-[166px] -z-10">
+          <div className="flex flex-wrap absolute top-[320px] right-10 gap-4 h-[192px] w-[166px] -z-10">
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
@@ -80,7 +80,7 @@ const Services = () => {
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
           </div>
-          <div className="flex flex-wrap absolute gap-4 h-[192px] w-[166px] bottom-0 right-10 -z-10">
+          <div className="flex flex-wrap absolute gap-4 h-[192px] w-[166px] top-20 -left-10 -z-10">
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
             <div className="h-[10px] w-[10px] bg-slate-200 rounded-full"></div>
